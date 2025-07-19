@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background: #e7e5e5;
+}
+
+div#container {
+  min-width: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+header {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+header h1 {
+  color: black;
+  font-weight: 600;
+}
+
+div#topics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div#topics h2#topic-title {
+  margin: 16px;
+}
+
+div#topics ul {
+  list-style: circle;
+  margin: 0px 0px 16px 34px;
+  width: 50vw;
+}
+
+div#topics ul a li {
+  margin-bottom: 10px;
+}
+
+div#topics ul a li:hover {
+  color: rgb(241, 80, 5);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+main#main-content {
+  margin: 14px 16px;
+}
+
+section.html-content {
+  margin-bottom: 20px;
+}
+
+section.html-content h2.section-title {
+  margin-bottom: 10px;
+}
+
+section.html-content p {
+  text-align: justify;
+  line-height: 2;
+}
+
+section.html-content ul#html5-list {
+  margin: 10px 0px 10px 34px;
+}
+
+section.html-content ul#html5-list li {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  position: relative;
+  top: 12px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer address {
+  font-size: 1.05em;
+}
+
+span#user-profile {
+  font-weight: 600;
+}
+
+span#user-profile:hover {
+  color: rgb(16, 20, 231);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
