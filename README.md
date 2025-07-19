@@ -6,4 +6,4 @@ projeto na DIO
 
 <img src="Assets/image.png">
 
-<p style="text-align: center">Criado por <br>Bruno Mazeto</br></p>
+<p style="text-align: center">Criado por Bruno Mazeto</p>
